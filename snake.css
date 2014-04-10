@@ -1,0 +1,16 @@
+html, body, div {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  font: inherit;
+}
+
+.board {
+  text-align: center;
+  background: grey;
+  width: 550px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: Courier;
+  color: blue;
+}
