@@ -5,12 +5,27 @@ html, body, div {
   font: inherit;
 }
 
-.board {
-  text-align: center;
-  background: grey;
-  width: 550px;
-  margin: 20px auto;
-  padding: 20px;
-  font-family: Courier;
-  color: blue;
+.div {
+  margin: auto;
+}
+
+.cell {
+  float: left;
+  height: 20px;
+  width: 20px;
+  background: #eee;
+
+  border: solid gray 1px;
+}
+
+.snake {
+  background-color: pink;
+}
+
+.apple {
+  background-color: green;
+}
+
+.row {
+  clear: both;
 }
