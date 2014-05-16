@@ -19,7 +19,7 @@ html, body, div {
 }
 
 .snake {
-  background-color: pink;
+  background-color: #FA50B9;
 }
 
 .apple {
@@ -28,4 +28,9 @@ html, body, div {
 
 .row {
   clear: both;
+}
+
+#grid {
+  margin: 50px 0;
+  margin-left: 21%;
 }
